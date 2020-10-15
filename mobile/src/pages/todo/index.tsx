@@ -141,7 +141,7 @@ const Todo: React.FC = () => {
       )}
 
       <TimerButton onPress={() => navigate.goBack()}>
-        <GoBackText>Todo Page</GoBackText>
+        <GoBackText>Timer Page</GoBackText>
       </TimerButton>
     </Container>
   );

@@ -13,7 +13,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Container>
-        <StatusBar barStyle="dark-content" />
+        <StatusBar backgroundColor="#99ff99" />
         <Header title="Avo-can do!" />
         <Routes />
       </Container>

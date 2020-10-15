@@ -48,6 +48,10 @@ const Todo: React.FC = () => {
 
   const handleSubmit = useCallback(
     async (data: ITodo) => {
+      if (!data.todo) {
+        return;
+      }
+
       const newData = {
         ...data,
         done: false,
